@@ -52,7 +52,7 @@ foreach (var item in estudantesPorIdade)
 
 List<int> numeros2 = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-var media = (decimal)numeros2.Sum() / numeros.Count;
+var media = (decimal)numeros2.Sum() / numeros2.Count;
 
 Console.WriteLine(media);
 
